@@ -1,0 +1,10 @@
+Preorder traversed   -- 9,3,4,5,2,7
+Inorder traversed    -- 4,3,5,9,2,7
+Postoredre traversed -- 4,5,3,7,2,9
+
+STRUCTURE = collection of different type of data.
+struct Node {
+    int data;
+    Node of left;
+    Node of Right;
+};
