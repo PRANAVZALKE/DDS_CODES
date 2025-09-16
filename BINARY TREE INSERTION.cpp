@@ -6,8 +6,8 @@ struct Node {
     Node * right;
 Node (int Val){
     data = Val;
-    left = nullptr;
-    right = nullptr;
+    left = right = nullptr;
+   
 }
     };
      void preorder(Node * root){
